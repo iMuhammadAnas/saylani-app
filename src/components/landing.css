@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.landing-main {
+    display: none;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    /* border: 1px solid red; */
+}
+
+.landing-box {
+    text-align: center;
+    margin-top: 20px;
+    /* border: 1px solid green; */
+}
+
+.landing-box h1 {
+    color: #61b847;
+    font-size: 30px;
+}
+
+.landing-box p {
+    color: #0050a2;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.landing-box img {
+    width: 220px;
+}
+
+.landing-btn-box {
+    text-align: center;
+    margin-top: 100px;
+    /* border: 1px solid blue; */
+}
+
+.start-btn {
+    padding: 10px 20px;
+    background-color: #61b847;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px,
+        rgba(0, 0, 0, 0.07) 0px 2px 2px,
+        rgba(0, 0, 0, 0.07) 0px 4px 4px,
+        rgba(0, 0, 0, 0.07) 0px 8px 8px,
+        rgba(0, 0, 0, 0.07) 0px 16px 16px;
+    color: #fff;
+}
+
+.screen {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: red;
+    padding: 20px;
+}
+
+@media only screen and (max-width: 425px) {
+    .landing-main {
+        display: block;
+    }
+
+    .screen {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .landing-main {
+        display: none;
+    }
+
+    .screen {
+        display: block;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: red;
+        padding: 20px;
+    }
+}
